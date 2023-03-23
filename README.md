@@ -6,6 +6,6 @@
 
 [mq](./Java/mq/RocketMQ.md)
 
-[git](./Java/git/Git Commit规范.md)
+[git](./Java/git/Git%20Commit%E8%A7%84%E8%8C%83.md)
 
 [docker](./运维/Docker.md)
