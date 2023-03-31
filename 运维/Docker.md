@@ -36,7 +36,7 @@ Docker容器技术：
 官网：https://www.docker.com/
 ### docker的运行过程
 docker的运行过程可以简单的理解为，从远端仓库中拉取合适的镜像到本地-->通过镜像创建容器-->启动容器
-![运行图](../image/img.png)
+![运行图](image/img.png)
 
 使用docker
 ---
@@ -57,20 +57,20 @@ docker的运行过程可以简单的理解为，从远端仓库中拉取合适�
 从远端仓库中拉取镜像到本地,这里以 centos 镜像为例
 `docker pull centos `
 等到拉取成功后会出现下图所示：
-![图](../image/img_1.png)
+![图](image/img_1.png)
 当你不指定任何标签的时候，docker会默认拉取最新的tag，指定拉取 ：+ tag 例如:docker pull centos:7 每一个镜像都是由一组64位长度的hash码组成，这种组成的方式保证了全球的唯一性
 ### docker images(查看镜像)
 从远端拉取镜像成功后我们可以通过docker images 来列出本地所有的镜像
 `docker images`
 如图下所示：
-![图](../image/img_2.png)
+![图](image/img_2.png)
 这边的image id 为12位和上方说的64位长度并不冲突，只是官方为了显示在控制台上好看一些。 将后方的位数省略了。
 ### docker create (创建容器)
 如果说镜像是个类，那么我们需要创建一个实例来让我们操作。 通过
 `docker create centos
 `
 来创建一个centos的容器，创建成功后会生成一个64位的hash值，如图下：
-![图](../image/img_3.png)
+![图](image/img_3.png)
 如果当你本地没有centos的镜像时候，会默认从远端仓库中的拉取对应的版本。 我们还可以通过 --name 来指定容器的别名
 
 ### 其他命令

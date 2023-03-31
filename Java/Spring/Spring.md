@@ -1,6 +1,6 @@
 Spring生态
 ---
-![Spring](../../image/spring.png)
+![Spring](image/spring.png)
 ## Spring
 #### 1使用Spring框架的好处
 * 控制反转：Spring通过控制反转实现了松散耦合，对象们给出它们的依赖，而不是创建或查找依赖的对象们
