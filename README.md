@@ -16,15 +16,17 @@
    3. 集合
       1. [HashMap](./Java/集合类/HashMap.md)
    4. 并发
+      1. [锁机制](./Java/并发/锁机制.md)
    5. I/O
    6. 设计模式
       1. [代理模式](./Java/设计模式/代理模式.md)
       2. [建造者模式](./Java/设计模式/建造者模式.md)
       3. [组合模式](./Java/设计模式/组合模式.md)
 5. 框架
-    1. [Spring](./Java/Spring/Spring.md)、[SpringBoot启动流程](./Java/Spring/SpringBoot的启动流程.md)
+    1. [Spring](./Java/Spring/Spring.md)
    2. Mybatis、MybatisPlus
    3. SpringBoot
+      1. [SpringBoot启动流程](./Java/Spring/SpringBoot的启动流程.md)
    4. ...
 6. 中间件
     1. [RocketMQ](./Java/mq/RocketMQ.md)、RabbitMQ
